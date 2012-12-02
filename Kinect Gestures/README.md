@@ -1,0 +1,1 @@
+To use have a Kinect connected, modify the parts of gestures.cs that have the IP address to point to the machine that has the main program and run it. The Kinect should detect the gestures and sent them to the main program.
