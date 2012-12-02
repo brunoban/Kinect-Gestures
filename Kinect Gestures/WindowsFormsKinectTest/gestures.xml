@@ -1,0 +1,14 @@
+﻿<Gestures GestureResetTimeout="500">
+    <Gesture Description="Swipe Left" MaxExecutionTime="1000" MappedKeyCode="NEXT">
+        <GestureComponent FirstJoint="WristRight" SecondJoint="ShoulderCenter" EndingRelationship="LeftOf" BeginningRelationship="RightOf" />
+    </Gesture>
+    <Gesture Description="Swipe Right" MaxExecutionTime="1000" MappedKeyCode="NEXT">
+        <GestureComponent FirstJoint="WristLeft" SecondJoint="ShoulderCenter" EndingRelationship="RightOf" BeginningRelationship="LeftOf" />
+    </Gesture>
+    <Gesture Description="Swipe Up" MaxExecutionTime="1000" MappedKeyCode="NEXT">
+        <GestureComponent FirstJoint="WristRight" SecondJoint="ShoulderCenter" EndingRelationship="Below" BeginningRelationship="Above" />
+    </Gesture>
+    <Gesture Description="Swipe Down" MaxExecutionTime="1000" MappedKeyCode="NEXT">
+     <GestureComponent FirstJoint="WristRight" SecondJoint="HipRight" EndingRelationship="Below" BeginningRelationship="Above" />
+    </Gesture>
+</Gestures>
